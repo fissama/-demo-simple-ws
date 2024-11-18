@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link href="./style.css" rel="stylesheet">
+    <link rel = "icon" href =  
+    "https://images.discordapp.net/avatars/787854966882697216/af401723290ee489a96cdafc881039fb.png" 
+            type = "image/x-icon"> 
+    <title>WS Chat</title>
+    
+</head>
+<body>
+    <div id="page-wrapper">
+        <h1>WebSockets Demo</h1>
+        
+        <div id="status">Connecting...</div>
+        
+        <ul id="messages"></ul>
+        
+        <form id="message-form" action="#" method="post">
+          <textarea id="message" placeholder="Write your message here..." required></textarea>
+          <button type="submit">Send Message</button>
+          <button type="button" id="close">Close Connection</button>
+        </form>
+      </div>
+      <script src="./scripts.js" ></script>
+</body>
